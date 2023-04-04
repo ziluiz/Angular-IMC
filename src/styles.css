@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+
+  .AAA{
+    background-color: rgb(83, 156, 219);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: fit-content;
+    border-color: black;
+    }

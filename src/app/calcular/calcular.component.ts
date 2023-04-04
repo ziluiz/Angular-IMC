@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class CalcularComponent {
 
+
+  peso : number = 0;
+  altura : number = 0;
+  imc : number = 0;
+
+  calimc(){
+
+    this.imc=this.peso*(this.altura)^2
+
+
+  }
+
 }

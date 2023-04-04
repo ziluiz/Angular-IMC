@@ -1,1 +1,16 @@
-<p>calcular works!</p>
+<div class="AAA">
+  <form>
+    <h1>Calculadora de IMC</h1>
+
+    Peso:
+    <input type="number" name="peso" [(ngModel)]="peso" />
+
+    Altura:
+    <input type="number" name="altura" [(ngModel)]="altura" />
+
+    <button (click)="calimc()">Calcular IMC</button>
+
+    IMC:
+    <input [value]="imc" readonly />
+  </form>
+</div>
